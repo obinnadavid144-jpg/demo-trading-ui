@@ -1,0 +1,38 @@
+/* Tailwind base, components, and utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: custom styles */
+body {
+  font-family: 'Inter', sans-serif; /* Modern clean font */
+  background-color: #1f2937;        /* dark gray background fallback */
+}
+
+/* Scrollbar styles (optional for a better UI feel) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #374151;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4b5563;
+}
+
+/* Inputs & buttons styling tweaks (optional) */
+input, button {
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
