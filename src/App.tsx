@@ -11,7 +11,10 @@ function App() {
 
       {/* Main content */}
       <div className="flex-1 flex flex-col">
+        {/* Topbar */}
         <Topbar />
+
+        {/* Dashboard content */}
         <Dashboard />
       </div>
     </div>
